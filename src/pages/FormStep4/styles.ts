@@ -4,6 +4,7 @@ export const Container = styled.div`
     p{
         font-size: 13px;
         color: #B8B8D4;
+        margin-bottom: 50px;
     }
 
     h1 {
@@ -16,7 +17,7 @@ export const Container = styled.div`
         height: 1px;
         border: 0;
         background-color: #16195C;
-        margin: 30px 0;
+        margin: 20px 0;
     }
 
     label {
@@ -24,24 +25,10 @@ export const Container = styled.div`
         display: block;
         margin-bottom: 20px;
 
-        input {
-            display: block;
-            margin-top: 7px;
-            box-sizing: border-box;
-            width: 100%;
-            padding: 20px 10px;
-            border: 2px solid #16195C;
-            border-radius: 10px;
-            color: #fff;
-            outline: 0;
-            font-size: 15px;
-            background-color: #02044A;
-        }
+        
     }
 
-    input:focus {
-        border: 2px solid #25CD89;
-    }
+    
 
     button {
         background-color: #25CD89;
@@ -68,4 +55,18 @@ export const Container = styled.div`
     .backButton:hover{
         border: 2px solid #25CD89;
     }
+`;
+
+export const Values = styled.div`
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 12px;
+    border: 2px solid #25CD89;
+    padding: 20px;
+
+    p{
+        margin-bottom: 10px;
+    }
+
 `;

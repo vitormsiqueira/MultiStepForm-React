@@ -41,6 +41,14 @@ export const Theme = ({children}: Props) => {
                             icon='mail'
                             path='/step3'
                             active={state.currentStep === 3}
+                        /> 
+
+                        <SideBarItem 
+                            title='Resumo'
+                            description='Finalizar cadastro'
+                            icon='resume'
+                            path='/step4'
+                            active={state.currentStep === 4}
                         />      
 
                     </C.SideBar>

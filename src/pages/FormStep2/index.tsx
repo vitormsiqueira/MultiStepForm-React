@@ -41,7 +41,7 @@ export const FormStep2 = () => {
     return (
         <Theme>
             <C.Container>
-                <p>Paso 2/3</p>
+                <p>Paso 2/4</p>
                 <h1>{state.name}, o que melhor descreve você?</h1>
                 <p>Escolha a opção que melhor define o seu estado atual, profissionalmente.</p>
 
